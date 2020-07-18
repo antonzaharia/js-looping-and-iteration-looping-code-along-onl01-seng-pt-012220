@@ -4,3 +4,10 @@ function writeCards(giftsArray, eventName) {
   }
   return giftsArray;
 }
+
+function countDown(number) {
+  while(number > 0){
+    console.log(number);
+    number--;
+  }
+}
